@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	height: 100%;	
+	background-image: url('../img/cover.png');
+	background-size: cover;
+	background-position: fixed;
+	font-family: 'Benne';
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	color: white;
+}
+
+h2 {
+}
+
+@font-face {
+font-family: "Benne";
+src:url("../fonts/Benne-Regular.otf") format("opentype");
+}
+
+.banner {
+	overflow: auto;
+}
+
+.cover {
+}
+
+.shop {
+	background-image: url("../img/etsy.png");
+	background-size: cover;
+}
+
+.header {
+	margin-top: 300px;
+	margin-bottom: 200px;
+}
+
+.happy {
+	margin-left: 40px;
+}
+
+.healthy {
+	margin-left: 100px;
+}
+
+.insta {
+	height: inherit;
+	background-size: cover;
+	background-image: url("../img/instagram.svg");
+}
+
+.container {
+	display: flex;
+	background-color: rgba(255, 255, 255, 0.3);
+	overflow: auto;
+	justify-content: space-around;
+}
+
+.tile {
+	position: relative;
+	height: 200px;
+	width: 200px;
+	background-color: rgb(155,225,230);
+	margin-top: 75px;
+	margin-bottom: 50px;
+	border-radius: 20px;
+	color: rgba(0,0,0,0.1);
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.tile:hover {
+	cursor: pointer;
+	color: white;
+}
+
+.yoga {
+	background-image: url("../img/yoga.png");
+	background-size: cover;
+}
