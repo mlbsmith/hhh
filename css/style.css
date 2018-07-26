@@ -9,6 +9,11 @@
 
 a {
 	text-decoration: none;
+	overflow: hidden;
+	height: 202px;
+	width: 202px;
+	margin-top: 75px;
+	margin-bottom: 50px;
 }
 
 body {
@@ -16,6 +21,7 @@ body {
 	background-image: url('../img/cover.png');
 	background-size: cover;
 	background-position: fixed;
+	background-attachment: fixed;
 	font-family: 'Benne';
 }
 
@@ -34,7 +40,8 @@ src:url("../fonts/Benne-Regular.otf") format("opentype");
 }
 
 .banner {
-	overflow: auto;
+	overflow: hidden;
+	width: 100%;
 }
 
 .cover {
@@ -46,8 +53,13 @@ src:url("../fonts/Benne-Regular.otf") format("opentype");
 }
 
 .header {
-	margin-top: 300px;
-	margin-bottom: 200px;
+	background-color: rgb(155,225,230); 
+	margin-top: 250px;
+	margin-bottom: 250px;
+	padding: 20px;
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
 }
 
 .happy {
@@ -64,6 +76,11 @@ src:url("../fonts/Benne-Regular.otf") format("opentype");
 	background-image: url("../img/instagram.svg");
 }
 
+.leaf {
+	height: 70px;
+	vertical-align: center;
+}
+
 .container {
 	display: flex;
 	background-color: rgba(255, 255, 255, 0.3);
@@ -76,8 +93,6 @@ src:url("../fonts/Benne-Regular.otf") format("opentype");
 	height: 200px;
 	width: 200px;
 	background-color: rgb(155,225,230);
-	margin-top: 75px;
-	margin-bottom: 50px;
 	border-radius: 20px;
 	color: rgba(0,0,0,0.1);
 	text-align: center;
@@ -86,7 +101,11 @@ src:url("../fonts/Benne-Regular.otf") format("opentype");
 
 .tile:hover {
 	cursor: pointer;
-	color: white;
+	border: 1px solid white;
+}
+
+.title {
+	text-align: center;
 }
 
 .yoga {
