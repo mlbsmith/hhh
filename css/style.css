@@ -16,12 +16,14 @@ a {
 	margin-bottom: 50px;
 }
 
+.about {
+	background-color: black;
+	display: none;
+	color: white;
+}
+
 body {
 	height: 100%;	
-	background-image: url('../img/cover.png');
-	background-size: cover;
-	background-position: fixed;
-	background-attachment: fixed;
 	font-family: 'Benne';
 }
 
@@ -79,6 +81,13 @@ src:url("../fonts/Benne-Regular.otf") format("opentype");
 .leaf {
 	height: 70px;
 	vertical-align: center;
+}
+
+.main {
+	background-image: url('../img/cover.png');
+	background-size: cover;
+	background-position: fixed;
+	background-attachment: fixed;
 }
 
 .container {
